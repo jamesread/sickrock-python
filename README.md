@@ -1,10 +1,11 @@
 <div align = "center">
-  <img alt = "project logo" src = "logo.png" width = "128" />
+  <img alt = "project logo" src = "https://raw.githubusercontent.com/jamesread/sickrock-python/main/logo.png" width = "128" />
   <h1>SickRock Python lib/cli</h1>
 
   Build nocode data base webapps on real databases
 
 [![Maturity Badge](https://img.shields.io/badge/maturity-Sandbox-yellow)](#none)
+[![PyPI](https://img.shields.io/pypi/v/sickrock-client)](https://pypi.org/project/sickrock-client/)
 [![Discord](https://img.shields.io/discord/846737624960860180?label=Discord%20Server)](https://discord.gg/jhYWWpNJ3v)
 
 </div>
@@ -12,6 +13,8 @@
 Python client and CLI for the [SickRock](https://github.com/jamesread/SickRock) Connect API.
 
 ## Install
+
+From [PyPI](https://pypi.org/project/sickrock-client/):
 
 ```bash
 pip install sickrock_client

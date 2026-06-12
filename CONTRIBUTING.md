@@ -30,6 +30,29 @@ the general direction and roadmap of this project without asking.
 
 The preferred way to communicate is probably via Discord or GitHub issues.
 
+## Commit messages
+
+Releases are automated with [Python Semantic Release](https://python-semantic-release.readthedocs.io/)
+from [Conventional Commits](https://www.conventionalcommits.org/) on `main`.
+
+Use prefixes such as:
+
+- `feat:` for new features (minor bump)
+- `fix:` for bug fixes (patch bump)
+- `docs:`, `chore:`, `refactor:`, `test:`, and `ci:` for non-release changes
+- `feat!:` or `fix!:` (or a `BREAKING CHANGE:` footer) for breaking changes (major bump)
+
+Examples:
+
+```text
+feat: add list-items CLI command
+fix: honour VERIFY_SSL from config file
+docs: clarify bearer token setup
+```
+
+Release commits, version bumps, and changelog updates are created automatically when
+releasable commits land on `main`.
+
 ## Mechanics of submitting a pull request
 
 When you are ready for a PR, please see the [pull request template](.github/PULL_REQUEST_TEMPLATE.md).
