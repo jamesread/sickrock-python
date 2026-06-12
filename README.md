@@ -1,5 +1,5 @@
 <div align = "center">
-  <img alt = "project logo" src = "frontend/src/resources/images/logo.png" width = "128" />
+  <img alt = "project logo" src = "logo.png" width = "128" />
   <h1>SickRock Python lib/cli</h1>
 
   Build nocode data base webapps on real databases
