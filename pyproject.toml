@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sickrock_client"
-version = "0.1.0"
+version = "0.2.0"
 description = "Python client and CLI for the SickRock Connect API"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -33,9 +33,9 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/jamesread/scripts"
-Repository = "https://github.com/jamesread/scripts"
-Issues = "https://github.com/jamesread/scripts/issues"
+Homepage = "https://github.com/jamesread/sickrock-python"
+Repository = "https://github.com/jamesread/sickrock-python"
+Issues = "https://github.com/jamesread/sickrock-python/issues"
 
 [project.scripts]
 sickrock = "sickrock_client.cli:main"

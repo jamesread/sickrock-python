@@ -4,4 +4,4 @@ from sickrock_client.client import SickRockClient
 from sickrock_client.exceptions import SickRockAPIError, SickRockCertificateError
 
 __all__ = ["SickRockClient", "SickRockAPIError", "SickRockCertificateError"]
-__version__ = "0.1.0"
+__version__ = "0.2.0"
